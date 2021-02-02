@@ -1,0 +1,194 @@
+@charset "utf-8";
+
+/*메인슬라이더*/
+
+.mainSlider{
+    position: relative;
+}
+
+.mainImg{
+    height: 930px;
+    background: url(../images/mainImg.png) no-repeat center center;
+    background-size: cover;
+    text-indent:-9999px;
+    
+    
+}
+.mainSlider p{
+    font-family: 'MapoGoldenPier';
+    z-index: 1;
+    position: absolute;
+    font-size: 36px;
+    color: #fff;
+    top: 420px;
+    left: 50%;
+}
+
+.mainSlider::after{
+    content: "";
+    display: inline-block;
+    width: 229px;
+    height: 1px;
+    background: #fff;
+    position: absolute;
+    bottom: 48%;
+    right: 27%;
+}
+
+
+/*메인컨텐츠01*/
+.mainCon01{
+    width: 100%;
+    height: 880px;
+    background-color: #F6F5E8;
+    padding: 60px 0;
+    color: #161515;
+}
+.con01Txt{
+    display: inline-block;
+    text-align: center;
+    padding-top: 250px;
+    background: url(../images/mainCon01Ico01.png) no-repeat
+    50px 200px;
+    
+}
+.con01Txt h2{
+    font-size: 36px;
+    font-weight: 400;
+
+}
+.con01Txt p{
+    font-size: 18px;
+}
+.con01Txt span{
+    font-size: 16px;
+}
+
+.con01Img{
+    float: right;
+}
+.con01Img a{
+    display: block;
+}
+.con01Img img{
+}
+
+
+
+/*메인컨텐츠02*/
+.mainCon02{
+    width: 100%;
+    height: 590px;
+    background: #FFFEF2;
+    position: relative;
+}
+
+.mainCon02 li{
+    float:left;
+}
+.mainCon02 li a{
+    font-size: 16px;
+    font-weight: bold;
+    color: #131313;
+    display: block;
+    text-align: center;
+}
+.mainCon02 li img{
+    display: block;
+}
+.mainCon02 li span{
+    font-weight: 400;
+    display: block;
+}
+
+.plusBtn{
+    position: absolute;
+    top: 50%;
+    right: 15%;
+}
+.plusBtn a{
+    display: block;
+}
+.plusBtn img{}
+
+/*메인컨텐츠03*/
+.mainCon03{
+    width: 100%;
+    height: 845px;
+    background:url(../images/mainCon03Bg.png) no-repeat center center;
+    background-size: cover;
+    position: relative;
+}
+
+.con03Img{
+    padding-top: 80px;
+    padding-left: 80px;
+}
+.con03Img a{}
+.con03Img img{}
+/*
+.con03Box{
+    position: relative;
+}
+.con03Box::after{
+    content: "";
+    display: block;
+    width: 440px;
+    height: 330px;
+    background: rgba(255,254,242,0.8);
+    position: absolute;
+    bottom: -80px;
+    z-index: 0;
+    right: 80px;
+}*/
+
+.con03Box{
+    width: 440px;
+    height: 330px;
+    background: url(../images/con03Box.png) no-repeat;
+    position: absolute;
+    bottom: 80px;
+    right: 20%;
+    
+}
+.con03Box h4{
+    margin: 50px 30px;
+    font-size: 25px;
+    font-weight: 400;
+}
+.con03Box p{
+    margin: 40px 30px;
+    font-size: 16px;
+}
+
+.moreBtn{
+    width: 149px;
+    height: 45px;
+    line-height: 45px;
+    border: 1px solid #131313;
+    padding: 0 10px;
+    margin-left: 30px;
+    position: relative;
+}
+.moreBtn a{
+    display: block;
+}
+.moreBtn img{
+    position: absolute;
+    top: 45%;
+    right: 10px;
+}
+
+/*메인컨텐츠04*/
+
+.mainCon04{}
+.mainCon04 ul{}
+.mainCon04 li{
+    float: left;
+}
+.mainCon04 li a{}
+.mainCon04 li img{
+}
+.slick-arrow{
+    display: none;
+}

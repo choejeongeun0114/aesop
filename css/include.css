@@ -1,0 +1,169 @@
+@charset "utf-8";
+
+/*헤더*/
+#header{
+    width: 100%;
+    background: rgba(215,215,215,0.2);
+    height: 90px;
+    line-height: 90px;
+    box-sizing: border-box;
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+}
+#header .inner{
+    width: 1200px;
+}
+.Menu{
+    display: inline-block;
+}
+.Menu h1{
+    float: left;
+    margin: 0 50px;
+}
+.Menu h1 a{
+    display: inline-block;
+    vertical-align: middle;
+}
+.Menu h1 img{
+    display: block;
+    width: 145px;
+}
+
+.gnb{
+    float: left;
+}
+.gnb li{
+    float: left;
+    margin: 0 50px;
+    font-size: 18px;
+}
+.gnb li a{
+    font-family: 'MapoGoldenPier';
+    font-weight: 200;
+    color: #fff;
+}
+
+.LMenu{
+    float: left;
+    text-indent: -9999px;
+    margin-top: 36px;
+}
+
+.LMenu a{
+    display: block;
+}
+
+.LMenu a::before, .LMenu a span,.LMenu a::after{
+    content: "";
+    display: block;
+    width: 27px;
+    height: 2px;
+    background: #fff;
+}
+
+.LMenu a span{
+    margin: 6px auto;
+}
+.RMenu{
+    float: right;
+}
+.RMenu a{}
+.RMenu img{}
+
+
+/*푸터*/
+
+#footer{
+    width: 100%;
+    height: 200px;
+    background: #252525;
+    color: #eaeaea;
+    font-weight: 200;
+    font-size: 14px;
+    padding-top: 20px;
+    position: relative;
+}
+.fMenu{
+    margin-left: 100px;
+}
+.fMenu li{
+    float: left;
+    margin-right: 90px;
+}
+.fMenu li a{
+    color: #eaeaea;
+}
+
+.fLogo{
+    position: relative;
+    float: left;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.fLogo a{
+    display: block;
+}
+.fLogo img{
+    position: absolute;
+}
+.fLogo p{
+    width: 600px;
+    margin-left: 140px;
+    float: left;
+}
+.copyright{
+    margin-left: 100px;
+    margin-top: 130px;
+}
+
+.footerR{
+    position: absolute;
+    top: 20px;
+    right: 100px;
+}
+.subscribe p{
+    margin-bottom: 20px;
+}
+.subscribe a{
+    font-size: 18px;
+    color: #eaeaea;
+}
+.subscribe a::after{
+    content: "";
+    display: block;
+    width: 275px;
+    height: 1px;
+    background: #eaeaea;
+    margin: 5px 0;
+}
+.subscribe img{
+    float: right;
+    margin-top: 10px;
+}
+
+.snsList{
+
+}
+.snsList p{
+    margin: 10px 0;
+}
+.snsList .ko{
+    float: right;
+    margin-top: 35px;
+}
+.snsList img{}
+
+
+.search{
+
+    position:relative;
+}
+.search input{
+    background: #252525;
+    padding:10px 15px;
+
+}
+.search a{
+    text-decoration:none;
+}
