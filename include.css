@@ -3,7 +3,7 @@
 /*헤더*/
 #header{
     width: 100%;
-    background: rgba(215,215,215,0.2);
+    background: rgba(0,0,0,0.2);
     height: 90px;
     line-height: 90px;
     box-sizing: border-box;
@@ -168,6 +168,9 @@
 .search input{
     background: #252525;
     padding:10px 15px;
+    border: 0;
+    color: #fff;
+    outline: none;
 
 }
 .search a{
